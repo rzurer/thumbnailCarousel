@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	.thumbnailCarousel
+		.thumbnailPrevious
+			img#thumbnailPrevious(src='/images/previous.png')
+		.thumbnails
+		.thumbnailNext
+			img#thumbnailNext(src='/images/next.png')
+	script
+		initializeThumbnailCarousel();

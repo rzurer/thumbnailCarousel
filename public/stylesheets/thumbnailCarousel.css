@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+.thumbnailCarousel {
+  float: left;
+}
+.thumbnailCarousel div {
+  float: left;
+}
+.thumbnailCarousel img {
+  cursor: pointer;
+}
+.thumbnailPrevious {
+  width: 4%;
+}
+.thumbnails{
+  width: 90%;
+}
+.thumbnailNext {
+  width: 4%;
+}
